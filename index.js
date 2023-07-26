@@ -8,7 +8,7 @@ const openai = new OpenAIApi(config);
 
 const runPrompt = async () => {
   const prompt = `
-    Generate an SAT vocabulary and provide a definition. Return response in the following parsable JSON format:
+    Generate an SAT-level vocabulary and provide a definition. Return response in the following parsable JSON format:
     {
         "V": "Vocabulary",
         "D": "Definition"
